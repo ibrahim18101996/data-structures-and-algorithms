@@ -103,6 +103,7 @@ const removeWithAnon = (arr) => {
   arr.forEach((value,index,arr)=>{
    if (value%3===2){
     arr.pop();
+    
    }
   });
   return arr;
